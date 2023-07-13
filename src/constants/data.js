@@ -56,43 +56,43 @@ const works = [
 
 const work_process = [
     {
-        title: "Sketch",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Latest and Traditional Design",
+        paragraph: "Discover our Exquisite Collection of Latest and Traditional Design Jewelry, where timeless elegance meets contemporary style"
     },
     {
-        title: "Design",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Genuine 22kt Gold Jwellery",
+        paragraph: "Radiate Timeless Brilliance with our Collection of Genuine 22kt Gold Jewelry, where craftsmanship and purity unite to adorn you with unmatched beauty."
     },
     {
-        title: "Develop",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Silver Jwellery",
+        paragraph: "Enhance Your Look with the Shimmering Beauty of Silver Jewelry, as our stunning collection brings you classic sophistication and a contemporary touch to elevate your style"
     },
     {
-        title: "End-Product",
-        paragraph: "Nunc sodales lacus nec felis suscipit dictum"
+        title: "Polishes and Repairs",
+        paragraph: "Revitalize and Restore Your Treasured Jewelry with our Expert Polishing and Repair Services, ensuring they regain their brilliance and stand the test of time"
     },
 ];
 
 const about_stats = [
     {
         image: `${images.stat_img_1}`,
-        value: "1575",
-        title: "Clients"
+        value: "Elevate Your Style, Embrace Your Brilliance.",
+        title: ""
     },
     {
         image: `${images.stat_img_2}`,
-        value: "2416",
-        title: "Projects"
+        value: "0413593119",
+        title: "(02) 9769 0007"
     },
     {
         image: `${images.stat_img_3}`,
-        value: "4287",
-        title: "Working Hours"
+        value: "10.00AM TO 7.00PM",
+        title: "Mon-Sat "
     },
     {
         image: `${images.stat_img_4}`,
-        value: "287",
-        title: "Awards"
+        value: "jearmyjwellers@gmail.com",
+        title: "E-mail"
     },
 ];
 

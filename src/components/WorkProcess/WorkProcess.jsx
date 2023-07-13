@@ -9,7 +9,7 @@ const WorkProcess = () => {
         <div className='workprocess-content'>
             <div className='section-title'>
                 <h3 className='text-brown'>Our <span className='text-dark'>Works</span></h3>
-                <p className='text'>I offer the right solutions for your digital business.</p>
+                <p className='text'>Experience Unparalleled Reliability and Punctuality with Our Jewelry Services, where we prioritize your satisfaction by delivering exceptional craftsmanship and timely solutions that surpass your expectations</p>
             </div>
 
             <div className='workprocess-list grid'>
@@ -18,7 +18,7 @@ const WorkProcess = () => {
                         return (
                             <div className='workprocess-item text-center' key = {index}>
                                 <div className='workprocess-item-title flex'>
-                                    <span className='text-brown fw-7'>0 {index + 1}</span>
+                                    {/* <span className='text-brown fw-7'>0 {index + 1}</span> */}
                                     <h3 className='text-dark fw-5'>{workprocess.title}</h3>
                                 </div>
                                 <p className='text'>{workprocess.paragraph}</p>

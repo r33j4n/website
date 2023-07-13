@@ -31,38 +31,49 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='about-grid grid'>
-                    {
+                <div className='about-grid '>
+                {
                         about_stats.map((about_stat, index) => {
                             return (
                                 <div className='about-item text-center flex' key = {index}>
                                     <div className='about-item-icon'>
-                                        <img src = {about_stat.image} alt = "" />
+                                        <img src = {about_stat.image} alt = "jearmy jwellers" />
                                     </div>
-                                    <div className='about-item-text text-left'>
-                                        <h3 className='fs-24 ls-2'>{about_stat.value}</h3>
+                                    <div className='about-item-text text-center'>
+                                        <h3 className='fs-24 ls-2'>"{about_stat.value}"</h3>
                                         <p className='text'>{about_stat.title}</p>
                                     </div>
                                 </div>
                             )
                         })
                     }
+                    
+                    
+                  
+                   
+                    
                 </div>
+                
 
                 <div className='about-grid grid'>
                     <div className='section-title'>
-                        <h3 className='text-brown'>Video <span className='text-dark'>Presentation</span></h3>
+                        {/* <h3 className='text-brown'>Video <span className='text-dark'>Presentation</span></h3> */}
                         <p className='text mx-auto'>
                         Explore our Dazzling Collection of Exquisite Silver and Gold Jewelry and Accessories. From stunning necklaces and bracelets to captivating rings and earrings, indulge in the allure of precious metals and find the perfect piece to enhance your personal charm. Embrace luxury and craftsmanship that transcends trends, and let our jewelry become a reflection of your unique and refined taste. Experience the artistry of silver and gold, and adorn yourself with everlasting beauty
                         </p>
                     </div>
 
                     <div className='about-video'>
-                    <img src = {images.About_Alex} alt = "" className='about-img mx-auto' />
+                    <img src = {images.About_Shop} alt = "" className='about-img mx-auto' />
                     </div>
+                    
                 </div>
+                
             </div>
+            
         </div>
+        
+
     </div>
   )
 }
