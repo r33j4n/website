@@ -1,12 +1,12 @@
 import React from 'react';
-import "./Testimonials.css";
-import { testimonials } from '../../constants/data';
+import "./ImageSlide.css";
+import { services, testimonials } from '../../constants/data';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {logos} from "../../constants/data";
 
-const Testimonials = () => {
+const ImageSlide = () => {
     var settings = {
         dots: true,
         infinite: true,
@@ -22,18 +22,19 @@ const Testimonials = () => {
         <div className='container'>
             <div className='testimonials-content'>
                 <div className='section-title'>
-                    <h3 className='text-brown'>Customer <span className='text-white'>Testimonials</span></h3>
+                    <h3 className='text-brown'>Jwellery <span className='text-white'>Catalogue</span></h3>
                 </div>
 
                 <div className='testimonials-list'>
                     <Slider {...settings}>
                         {
-                            testimonials.map((testimonial, index) => {
+                            services.map((testimonial, index) => {
                                 return (
                                     <div className='testimonials-item text-center text-white' key = {index}>
-                                        <p className='text mx-auto'>{testimonial.paragraph}</p>
+                                        <p className='text mx-auto'>{testimonial.title}</p>
+                                        <img src = {testimonial.image} alt = "jearmy jwellers" />
                                         <div className='testimonials-item-text'>
-                                            <span className='fs-22'>{testimonial.name}</span>
+                                            <span className='fs-22'>{testimonial.paragraph}</span>
                                             <small>{testimonial.post}</small>
                                         </div>
                                     </div>
@@ -60,4 +61,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+export default ImageSlide

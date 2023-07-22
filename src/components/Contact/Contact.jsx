@@ -25,8 +25,8 @@ const Contact = () => {
         <div className='container'>
             <div className='contact-section'>
                 <div className='section-title'>
-                    <h3 className='text-brown'>contact <span className='text-dark'>me</span></h3>
-                    <p className='text'>I offer the right solutions for your digital business.</p>
+                    <h3 className='text-brown'>contact <span className='text-dark'>us</span></h3>
+                    <p className='text'>Contact through Email</p>
                 </div>
             </div>
 

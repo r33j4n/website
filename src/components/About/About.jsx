@@ -31,26 +31,36 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className='about-grid '>
+                <div className='about-grid parent-container '>
                 {
                         about_stats.map((about_stat, index) => {
                             return (
-                                <div className='about-item text-center flex' key = {index}>
-                                    <div className='about-item-icon'>
+                                <div className='about-item  flex set-align grid' key = {index}>
+                                    <div className='about-item-icon '>
                                         <img src = {about_stat.image} alt = "jearmy jwellers" />
                                     </div>
-                                    <div className='about-item-text text-center'>
-                                        <h3 className='fs-24 ls-2'>"{about_stat.value}"</h3>
-                                        <p className='text'>{about_stat.title}</p>
+                                    <div className='about-item-text '>
+                                    {about_stat.value === "+61 413 593 119" ? (
+            <a href="tel:+61413593119">
+              <h3 className='fs-24 ls-2'>{about_stat.value}</h3>
+              <p className='text'>{about_stat.title}</p>
+            </a>
+          ) : about_stat.value === "jearmyjwellery@gmail.com" ? (
+            <a href={`mailto:${about_stat.value}`}>
+              <h3 className='fs-24 ls-2'>{about_stat.value}</h3>
+              <p className='text'>{about_stat.title}</p>
+            </a>
+          ) : (
+            <>
+              <h3 className='fs-24 ls-2'>{about_stat.value}</h3>
+              <p className='text'>{about_stat.title}</p>
+            </>
+          )}
                                     </div>
                                 </div>
                             )
                         })
                     }
-                    
-                    
-                  
-                   
                     
                 </div>
                 

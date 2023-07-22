@@ -6,13 +6,16 @@ import {
   Routes,
   Route
 } from "react-router-dom";
+import Jwellery from './pages/Jwellery';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
       <Route path = "/" element = {<App />}></Route>
+      <Route path = "/jwellery" element = {<Jwellery/>}></Route>
+
     </Routes>
   </BrowserRouter>
 );
-

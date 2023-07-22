@@ -71,4 +71,20 @@
         margin-top: 30px;
         column-gap: 20px;
     }
+   
 }
+
+.set-align{
+    
+    margin-top: 10px;
+    display: flex;
+  /* justify-content:center; */
+
+}
+.gaps{
+    padding-top: 10px;
+}
+.parent-container {
+    
+    justify-content: center;
+  }

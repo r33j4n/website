@@ -76,13 +76,13 @@ const work_process = [
 const about_stats = [
     {
         image: `${images.stat_img_1}`,
-        value: "Elevate Your Style, Embrace Your Brilliance.",
+        value: "106A Pendle Way Pendle Hill NSW 2145 Australia",
         title: ""
     },
     {
         image: `${images.stat_img_2}`,
-        value: "0413593119",
-        title: "(02) 9769 0007"
+        value: "+61 413 593 119",
+        title: "Connect with call"
     },
     {
         image: `${images.stat_img_3}`,
@@ -91,27 +91,43 @@ const about_stats = [
     },
     {
         image: `${images.stat_img_4}`,
-        value: "jearmyjwellers@gmail.com",
+        value: "jearmyjwellery@gmail.com",
         title: "E-mail"
+    },
+    {
+        image: `${images.stat_img_5}`,
+        value: "04135931192",
+        title: "Connect through Whatsapp"
     },
 ];
 
 const testimonials = [
     {
-        name: "Lelia Merritt",
-        post: "Graphic Designer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+        name: "Pratheepan Kalikuddy",
+        post: "Goldsmith",
+        paragraph: "Large collection of jewellery. We can select easily what ever we need the design. And good customer services I like very much this shop .❤️"
     },
     {
-        name: "John Huston",
-        post: "Web Developer",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+        name: "Vikas K.",
+        post: "Entrepenur",
+        paragraph: "Very friendly, genuine and polite owner. Good price and range of products."
     },
     {
-        name: "Jeniffer Green",
-        post: "Marketing Manager",
-        paragraph: "Aliquam et odio arcu. Vestibulum pharetra tincidunt odio, sed pulvinar magna tempus quis. Mauris risus odio, semper sit amet tortor a, tristique consectetur urna."
+        name: "Jenusiya D",
+        post: "",
+        paragraph: "Nice collection, very good customer services."
     },
+    {
+        name: "Thareejan P",
+        post: "ML Engineer",
+        paragraph: "I absolutely adore this jewelry shop; their stunning collection, exceptional customer service, and impeccable craftsmanship make it my go-to destination for all my jewelry needs."
+    },
+    {
+        name: "Rithujah P",
+        post: "Student",
+        paragraph: "This jewelry shop never fails to amaze me with their breathtaking designs, top-notch quality, and impeccable attention to detail."
+    },
+
 ]
 
 const logos = [
