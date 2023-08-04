@@ -150,5 +150,37 @@ const logos = [
         image: `${images.test_img_6}`
     },
 ];
+const jewells = [
+    {
+        image: `${images.services_img_1}`,
+        title: "Chains",
+        price: "356821"
+    },
+    {
+        image: `${images.services_img_2}`,
+        title: "Bracelets",
+        price: "256821"
+    },
+    {
+        image: `${images.services_img_3}`,
+        title: "Rings",
+        price: "56821"
+    },
+    {
+        image: `${images.services_img_4}`,
+        title: "Necklace",
+        price: "456821"
+    },
+    {
+        image: `${images.services_img_5}`,
+        title: "Earings",
+        price: "156821"
+    },
+    {
+        image: `${images.services_img_6}`,
+        title: "Bangles",
+        price: "346821"
+    },
+];
 
-export {services, works, work_process, about_stats, testimonials, logos};
+export {services, works, work_process, about_stats, testimonials, logos,jewells};

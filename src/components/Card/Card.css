@@ -1,0 +1,18 @@
+.box {
+    position: relative;
+  }
+.box:hover {
+    background: none;
+    /* transform: translateY(-0); */
+  }
+.img{
+    margin: 20px 20px 20px 20px;
+}
+.category1 h2{
+padding-bottom: 0;
+text-align: center;
+}
+.category1 p{
+    padding-bottom: 0;
+    text-align: center;
+    }

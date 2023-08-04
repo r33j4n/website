@@ -1,0 +1,150 @@
+.content{
+    height: 100vh;
+}
+.bage {
+    min-height: 60vh;
+    background-position: right center;
+    background-attachment: fixed;   
+  }
+  .about{
+position: absolute;
+top:50%;
+left:36%;
+padding:5px,15px;
+transform: translate(-50%,-50%);
+color:white;
+font-size: 20px;
+  }
+  .text-about{
+    /* margin-top: 20%;
+    font-size: 30px; */
+    position: absolute; 
+    left :20px;
+    top: 50%; /* Position the element 20% from the top of its containing block (background container) */
+    font-size: 20px;
+    /* left :35%;
+    transform: translateX(-50%);  */
+    color: white;
+  }
+  .text-about h1{
+    margin-top: 20px;
+    font-size: 60px;
+  }
+  .jewelBody{
+    background-color:beige;
+    min-height: 150vh;
+  }
+  .c0{
+    margin-left:5%;
+    margin-right: 5%;
+  }
+  .c{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap:2.5rem;
+    /* margin: 40px; */
+    }
+    .c1{
+        position: relative;
+        box-shadow: 0 0 1rem var(#1f242d);
+        overflow:hidden;
+        display: flex;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+    }
+
+    @media screen and (min-width: 481px) and (max-width: 1100px) {
+      .c {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media screen and (max-width: 480px) {
+      .c {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+  .Collection {
+    position: relative;
+  }
+
+  
+  .Collection .img {
+    height: 300px;
+    overflow: hidden;
+    transition: 0.5s;
+  }
+  .Collection img {
+    width: 100%;
+    transition: 0.5s;
+  }
+  .Collection .box .img:hover img {
+    transform: scale(1.2);
+  }
+  .Collection .category {
+    margin: 20px 0 30px 0;
+    text-transform: uppercase;
+  }
+  .Collection .arrow {
+    position: absolute;
+    right: 30px;
+    bottom: 11%;
+    transform: rotate(-45deg);
+    color: #ff014f;
+    opacity: 0;
+    transition: 0.5s;
+  }
+  .Collection .title:hover .arrow {
+    opacity: 1;
+  }
+  .Collection h2 {
+    font-size: 18px;
+    transition: 0.5s;
+    padding-bottom: 30px;
+  }
+  .Collection .box:hover h2 {
+    color: #ff014f;
+  }
+  .Collection .box:hover p {
+    color: #ff014f;
+  }
+  .Collection .box:hover {
+    color: black;
+  }
+  .Collection h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* pagination */
+  .paginationButtons{
+    width:80%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+  }
+
+  .paginationButtons a{
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color:#2b2eff;
+    cursor: pointer;
+  }
+
+  .paginationButtons a:hover{
+    color: white;
+    background-color: #2b2eff;
+  }
+
+  .paginationActive a{
+    color: white;
+    background-color: #2b2eff;
+  }
