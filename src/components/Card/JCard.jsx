@@ -3,10 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import "./Card.css";
 
-const Card = (props) => {
-  
+const JCard = (props) => {
+  // const a = props.name;
+  const navigate = useNavigate();
+  const handleClick = (arg) => {
+    console.log(arg);
+    navigate(`/jwellery/${arg}`);
+  }
   return (
-    <div className="box btn_shadow">
+    <div className="box btn_shadow" onClick={() => handleClick(props.name)}>
       <div className="img">
         <img src={props.image}/>
       </div>
@@ -18,4 +23,4 @@ const Card = (props) => {
       );
 };
 
-export default Card;
+export default JCard;

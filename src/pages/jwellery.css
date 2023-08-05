@@ -134,17 +134,17 @@ font-size: 20px;
     padding: 10px;
     margin: 8px;
     border-radius: 5px;
-    border: 1px solid #2b2eff;
-    color:#2b2eff;
+    border: 1px solid black;
+    color: black;
     cursor: pointer;
   }
 
   .paginationButtons a:hover{
     color: white;
-    background-color: #2b2eff;
+    background-color: black;
   }
 
   .paginationActive a{
     color: white;
-    background-color: #2b2eff;
+    background-color:  black0;
   }

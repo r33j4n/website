@@ -2,15 +2,15 @@ import React,{useState} from "react";
 import { Parallax, Background } from "react-parallax";
 import ReactPaginate from "react-paginate";
 import "./jwellery.css";
-import JCard from "../components/Card/JCard";
+import Card from "../components/Card/Card";
 import Black from "../assets/images/black.jpg";
-import { jewells } from "../constants/data";
-import Navbar from "../components/Navbar/Navbar";
+import { jewells,arams } from "../constants/data";
 
-const Jwellery = () => {
+
+const Aram = () => {
     const[pageNumber,setPageNumber]=useState(0);
 
-    const jewellsPerPage=6;
+    const jewellsPerPage=4;
     const pageVisited=pageNumber*jewellsPerPage;
     const pageCount=Math.ceil(jewells.length/jewellsPerPage);
 
@@ -21,18 +21,15 @@ const Jwellery = () => {
   return (
     <div>
       <Parallax bgImage={Black} strength={700}>
-      <Navbar/>
-
         <div className="content">
           <div className="aboutx">
-            <h1>Collections</h1>
+            <h1>Arams</h1>
             <p>
-            Dive into a world of sophistication with our Jewel Collections, showcasing a harmonious blend of artistry and opulence.
-            </p>
+            Discover the beauty of tradition with our intricately designed arams, each piece reflecting the rich heritage and craftsmanship of our culture.            </p>
           </div>
         </div>
       </Parallax>
-    <br/>
+      <br/>
       <section className="Collection top" id="Collection">
         <div className="c0">
         <div className="c">
@@ -42,12 +39,11 @@ const Jwellery = () => {
             .map((value, index) => {
               return (
                 <div className="c1">
-                <JCard
+                <Card
                   key={index}
                   image={value.image}
                   title={value.title}
                   price={value.price}
-                  name={value.name}
                 />
                 </div>
               );
@@ -77,4 +73,4 @@ const Jwellery = () => {
   );
 };
 
-export default Jwellery;
+export default Aram;

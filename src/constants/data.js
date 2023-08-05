@@ -152,35 +152,77 @@ const logos = [
 ];
 const jewells = [
     {
+        name:"thaali",
+        image: `${images.services_img_1}`,
+        title: "Thaali",
+        price: "356821",
+    },
+    {
+        name:"chains",
         image: `${images.services_img_1}`,
         title: "Chains",
         price: "356821"
     },
     {
+        name:"bracelet",
         image: `${images.services_img_2}`,
         title: "Bracelets",
         price: "256821"
     },
     {
-        image: `${images.services_img_3}`,
-        title: "Rings",
-        price: "56821"
+        name:"aram",
+        image: `${images.services_img_1}`,
+        title: "Arams",
+        price: "356821"
     },
     {
+        name:"necklace",
         image: `${images.services_img_4}`,
         title: "Necklace",
         price: "456821"
     },
     {
+        name:"earing",
         image: `${images.services_img_5}`,
         title: "Earings",
         price: "156821"
     },
     {
+        name:"bangle",
         image: `${images.services_img_6}`,
         title: "Bangles",
         price: "346821"
     },
+    {
+        name:"ring",
+        image: `${images.services_img_1}`,
+        title: "Rings",
+        price: "356821"
+    },
+];
+const thaalis =[
+
+];
+const chains=[
+
+];
+const bracelets=[
+
+];
+const arams=[
+
+];
+const necklaces=[
+
+];
+const earings=[
+
+];
+const bangles=[
+
+];
+const rings=[
+
 ];
 
-export {services, works, work_process, about_stats, testimonials, logos,jewells};
+export {services, works, work_process, about_stats, testimonials, logos,jewells,thaalis,chains,bracelets,arams,necklaces,earings,bangles,rings};
