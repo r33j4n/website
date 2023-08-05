@@ -9,7 +9,7 @@ import { jewells } from "../constants/data";
 const Jwellery = () => {
     const[pageNumber,setPageNumber]=useState(0);
 
-    const jewellsPerPage=3;
+    const jewellsPerPage=4;
     const pageVisited=pageNumber*jewellsPerPage;
     const pageCount=Math.ceil(jewells.length/jewellsPerPage);
 
@@ -22,20 +22,15 @@ const Jwellery = () => {
       <Parallax bgImage={Black} strength={700}>
         <div className="content">
           <div className="aboutx">
-            <h1>Rings</h1>
+            <h1>Collections</h1>
             <p>
-              Discover timeless elegance and exquisite craftsmanship with our{" "}
-              <br />
-              stunning collection of rings, designed to add a touch of
-              brilliance to every moment
+            Dive into a world of sophistication with our Jewel Collections, showcasing a harmonious blend of artistry and opulence.
             </p>
           </div>
         </div>
       </Parallax>
     
       <section className="Collection top" id="Collection">
-          <h1>My Collections</h1>
-        
         <div className="c0">
         <div className="c">
          
@@ -49,13 +44,17 @@ const Jwellery = () => {
                   image={value.image}
                   title={value.title}
                   price={value.price}
+                  name={value.name}
                 />
                 </div>
               );
             })}
 
             <br/>
-
+      
+          </div>
+          <br/>
+          <div>
             <ReactPaginate 
               previousLabel={"previous"}
               nextLabel={"Next"}
@@ -67,7 +66,8 @@ const Jwellery = () => {
               disabledClassName={"paginationDisabled"}
               activeClassName={"paginationActive"}
             />
-          </div>
+            </div>
+            <br/>
     </div>
       </section>
     </div>
