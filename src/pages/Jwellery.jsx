@@ -21,7 +21,7 @@ const Jwellery = () => {
     <div>
       <Parallax bgImage={Black} strength={700}>
         <div className="content">
-          <div className="about">
+          <div className="aboutx">
             <h1>Rings</h1>
             <p>
               Discover timeless elegance and exquisite craftsmanship with our{" "}
